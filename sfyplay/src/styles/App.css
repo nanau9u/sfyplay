@@ -1,0 +1,15 @@
+body {
+  background-color: #f7f7f7; /* 배경색 설정 */
+}
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Container for pages */
+.page-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
