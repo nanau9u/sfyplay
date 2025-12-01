@@ -1,0 +1,23 @@
+.menu-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  background-color: #ffffff;
+}
+
+.menu-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.menu-card.border-primary {
+  border-color: #007bff !important; /* Bootstrap primary color */
+}
+
+.menu-card .card-title {
+  color: #333;
+}
+
+.menu-card .list-unstyled li {
+  color: #666;
+}

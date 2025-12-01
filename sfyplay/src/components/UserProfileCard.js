@@ -1,34 +1,4 @@
-// import React from 'react';
-// import { Card, Badge } from 'react-bootstrap';
 
-// function UserProfileCard() {
-//   // 더미 데이터
-//   const userName = "내나님";
-//   const campus = "서울3반";
-//   const userRank = "GOLD";
-//   const userCoin = 30;
-
-//   return (
-//     <Card className="text-center p-3 shadow-sm" style={{ backgroundColor: '#fff8e1', border: 'none' }}>
-//       <Card.Body>
-//         <p className="mb-1 text-muted small">예측의 지배자 / {campus}</p>
-//         <Card.Title className="mb-2 fw-bold fs-4">{userName}</Card.Title>
-//         <Badge bg="warning" className="mb-3 px-3 py-2 fw-bold text-dark">{userRank} 등급</Badge>
-//         <div className="d-flex align-items-center justify-content-center">
-//           <span className="fw-bold fs-5 me-2">{userCoin}</span>
-//           <img src="https://www.flaticon.com/svg/static/icons/svg/1781/1781747.svg" alt="coin icon" style={{ width: '25px', height: '25px' }} />
-//         </div>
-//         <Card.Link href="#previous-betting" className="mt-3 d-block text-primary small">
-//           지난 베팅 내역 보기
-//         </Card.Link>
-//       </Card.Body>
-//     </Card>
-//   );
-// }
-
-// export default UserProfileCard;
-
-// ...existing code...
 import React from 'react';
 
 export default function UserProfileCard({ user = {}, style = {} }) {
